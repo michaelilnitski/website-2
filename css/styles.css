@@ -1,0 +1,68 @@
+body {
+    background:;
+  }
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+p {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.intro-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	repeat: no repeat;
+	background-size: cover;
+	height: 350px;
+	background-image: url("porsche1.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	border: 2px solid grey;
+}
+
+  
+@media (min-width: 1200px) {
+body {
+    background:;
+    }
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.intro-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	repeat: no repeat;
+	background-size: cover;
+	height: 350px;
+	background-image: url("porsche5.jpg");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	border: 2px solid grey;
+}
+button{
+    background-color:	#ff4500;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+      border-radius: 24px;
+      position: absolute;
+      font-family: arial;
+      padding-left: 100px;
+      padding-right: 100px;
+  
+}
+}
