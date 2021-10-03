@@ -57,6 +57,9 @@ header{
     align-self: flex-start;
     float: left;
 }
+.logo img{
+    width:50px;
+}
 .drive{
     margin-right: auto;
     display: flex;
@@ -70,9 +73,10 @@ header{
 }
 .fab {
     margin-right: 5px;
+    font-size: 16px;
 }
 .home{
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
 
@@ -80,7 +84,8 @@ header{
   
 @media (min-width: 1200px) {
 img.responsive { 
-    width: auto; 
+    width: 850px; 
+
 }
 body {
     background:;
@@ -136,9 +141,10 @@ button{
 }
 .fab {
     margin-right: 15px;
+    font-size:30px;
 }
 .home{
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
 }
 .flex-parent{
@@ -166,4 +172,8 @@ button{
 .new-price-unit{
    font-size: 16px;
    color: grey;
+}
+.logo img{
+    width:100px;
+}
 }
