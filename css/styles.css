@@ -1,40 +1,107 @@
-body {
-    background:;
+img.responsive { 
+    width: 100px; 
+}
+section {
+    background-color:paleturquoise;
   }
+footer{
+    background-color: plum;
+}
 h4{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 25px;
+    color: snow;
 }
 p {
     font-family: Arial;
-    font-size: 20px;
+    font-size: 15px;
 }
-
+i{
+    font-size: 15px;
+}
+div{
+    margin: 10px;
+    padding: 5px;
+}
 .intro-section {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	repeat: no repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	height: 350px;
-	background-image: url("porsche1.jpg");
+	background-image: url("../assets/porsche1.JPG");
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
 	border: 2px solid grey;
 }
+header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: silver;
+  }
+  li {
+    display: inline;
+    margin: 20px;
+  }
+.top{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.logo{
+    align-self: flex-start;
+    float: left;
+}
+.drive{
+    margin-right: auto;
+    display: flex;
+}
+.button1{
+    margin-right: auto;
+   
+}
+.far {
+    margin-right: 5px;
+}
+.fab {
+    margin-right: 5px;
+}
+.home{
+    font-family: 'Courier New', Courier, monospace
+    font-size: 15px;
+}
+
 
   
 @media (min-width: 1200px) {
+img.responsive { 
+    width: auto; 
+}
 body {
     background:;
     }
 h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 40px;
+    color: black;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
 }
 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+i{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 30px;
 }
 .intro-section {
 	display: flex;
@@ -43,7 +110,7 @@ p {
 	repeat: no repeat;
 	background-size: cover;
 	height: 350px;
-	background-image: url("porsche5.jpg");
+	background-image: url("../assets/porsche1.JPG");
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
 	border: 2px solid grey;
@@ -62,7 +129,41 @@ button{
       position: absolute;
       font-family: arial;
       padding-left: 100px;
-      padding-right: 100px;
-  
+      padding-right: 100px; 
 }
+.far {
+    margin-right: 15px;
+}
+.fab {
+    margin-right: 15px;
+}
+.home{
+    font-family: 'Courier New', Courier, monospace
+    font-size: 15px;
+}
+.flex-parent{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	padding: 12px;
+	margin: 12px;
+}
+.tour{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	/*padding-right: 50px; */
+	padding: 12px;
+	margin: 12px;
+}
+.price{
+    font-size: 36px;
+}
+.old-price{
+   text-decoration: line-through;
+   color:red;
+}
+.new-price-unit{
+   font-size: 16px;
+   color: grey;
 }

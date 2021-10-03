@@ -1,29 +1,77 @@
 <!doctype html>
 <html lang="en">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile First Website</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/design-system.css">
-    <div class="intro-section">
-        <button class="button1"> VIEW ALL PACKAGES </button>
-      </div>
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
 
 <body>
+    <header>
+      <div class="top">
+        <div class="logo">
+          <img src="./assets/porsche_wappen.svg" alt="logo" class="responsive">
+        </div>
+        <div class="drive">
+          <h4>Porsche Drive Rental</h4>
+        </div>
+        <div class="home">
+          <h4>HOME</h4>
+        </div>
+        <div class="about">
+          <h4>ABOUT</h4>
+        </div>
+        <div class="blog">
+          <h4>BLOG</h4>
+        </div>
+        <!--
+        <div>
+          <button class="button1"> BOOK NOW </button>
+        </div>
+        -->
+    </div>
+    </header>
+
+    <section>
     <div class="tour">
         <div class="tour1">
-          <div class="icon">
-            <i class="fas fa-truck-pickup fa-3x"></i>
-          </div>
-          <div class="tour2">
-            <h4>Porsche Offroad</h4>
-            <p> Drive our Cayenne and Macan models through rough terrain </p>
-            <span class="view"> View More </span>
+          <div class="flex-parent">
+            <div class="flex-child child1">
+              <h3> Once In A Lifetime Experience </h3>
+              <p> Adrenaline, goose bumps and incredible curves. Experience the Porsche moment flexibly for up to 28 days - full to the brim with free kilometres.</p>
+              <p>At selected locations and Porsche Centres with the highest standards of service and quality, you can rent your dream Porsche.</p>
+              <span class="price old-price">800</span> <span class="price new-price">500 $ </span> <span class="new-price-unit"> / FOR PERSON</span>
+              <button class="button2"> BOOK NOW </button>
+            </div>
+            <div class="flex-child child2 slider">
+              <img src="./assets/porsche5.jpg" alt="car porsche racing" style="width:850px">
+            </div>
+      </div>
+    </section>
+    <footer>
+      <div class="top">
+        <div class="drive">
+          <div>
+            <p class="legal-footer">Porsche Drive Rental</p>
+            <i class="far fa-copyright">All Rights Reserved</i><i class="fab fa-twitter fa-3x"></i><i class="fab fa-facebook-square fa-3x"></i><i class="fab fa-google-plus-square fa-3x"></i><i class="fab fa-linkedin fa-3x"></i>
           </div>
         </div>
-      </div>
+        <div class="home">
+          <h4>Privacy</h4>
+        </div>
+        <div class="about">
+          <h4>Terms</h4>
+        </div>
+        <div class="blog">
+          <h4>Contact</h4>
+        </div>
+    </div>
+  </footer>
 </body>
 </html>
